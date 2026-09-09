@@ -1,0 +1,40 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="RFTxl71oQ4w8gW5H1OGS">
+    <mxGraphModel dx="804" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZvM_e935oFpizfCEhecI-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;br&gt;Kiểm tra giỏ hàng" vertex="1">
+          <mxGeometry height="60" width="120" x="384" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvM_e935oFpizfCEhecI-2" edge="1" parent="1" source="ZvM_e935oFpizfCEhecI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZvM_e935oFpizfCEhecI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvM_e935oFpizfCEhecI-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Đặt hàng" vertex="1">
+          <mxGeometry height="60" width="120" x="384" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvM_e935oFpizfCEhecI-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Khách hàng" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvM_e935oFpizfCEhecI-5" edge="1" parent="1" source="ZvM_e935oFpizfCEhecI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZvM_e935oFpizfCEhecI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvM_e935oFpizfCEhecI-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Áp dụng mã giảm giá" vertex="1">
+          <mxGeometry height="60" width="120" x="384" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvM_e935oFpizfCEhecI-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;include&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvM_e935oFpizfCEhecI-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;extend&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvM_e935oFpizfCEhecI-9" edge="1" parent="1" source="ZvM_e935oFpizfCEhecI-4" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZvM_e935oFpizfCEhecI-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="450" as="sourcePoint" />
+            <mxPoint x="470" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
