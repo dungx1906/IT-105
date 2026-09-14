@@ -1,0 +1,118 @@
+<mxfile host="Electron" agent="ChatGPT">
+  <diagram id="smart-locker-otp" name="Smart Locker OTP">
+    <mxGraphModel dx="1578" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;" value="Sequence Diagram - Rikkei Logistics Smart Locker" vertex="1">
+          <mxGeometry height="30" width="650" x="120" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="locker" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;html=1;whiteSpace=wrap;container=1;" value="LockerTerminal" vertex="1">
+          <mxGeometry height="570" width="170" x="190" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="service" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;html=1;whiteSpace=wrap;container=1;" value="PackageService" vertex="1">
+          <mxGeometry height="570" width="170" x="470" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lockAct1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#333333;" value="" vertex="1">
+          <mxGeometry height="85" width="12" x="272" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="svcAct" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#333333;" value="" vertex="1">
+          <mxGeometry height="95" width="12" x="552" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lockAct2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#333333;" value="" vertex="1">
+          <mxGeometry height="185" width="12" x="272" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="alt" parent="1" style="swimlane;horizontal=0;startSize=28;rounded=0;html=1;whiteSpace=wrap;fillColor=none;strokeColor=#333333;" value="alt" vertex="1">
+          <mxGeometry height="250" width="430" x="165" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="correctGuard" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;" value="[OTP đúng]" vertex="1">
+          <mxGeometry height="25" width="180" x="175" y="332" as="geometry" />
+        </mxCell>
+        <mxCell id="wrongGuard" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;" value="else [OTP sai]" vertex="1">
+          <mxGeometry height="25" width="180" x="175" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="divider" parent="1" style="line;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="430" x="165" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;" value="Nhập OTP" vertex="1">
+          <mxGeometry height="25" width="160" x="65" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;" value="verify_otp() [Sync]" vertex="1">
+          <mxGeometry height="25" width="180" x="335" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;" value="OTP hợp lệ [Return]" vertex="1">
+          <mxGeometry height="25" width="190" x="355" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="l4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;" value="Mở tủ thành công" vertex="1">
+          <mxGeometry height="25" width="180" x="120" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="l5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;" value="OTP không hợp lệ [Return]" vertex="1">
+          <mxGeometry height="25" width="220" x="330" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="l6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;" value="Mã OTP không đúng, vui lòng thử lại" vertex="1">
+          <mxGeometry height="35" width="270" x="80" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="a1s" parent="1" style="ellipse;fillColor=none;strokeColor=none;opacity=0;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="135" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="a1t" parent="1" style="ellipse;fillColor=none;strokeColor=none;opacity=0;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="272" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="a2s" parent="1" style="ellipse;fillColor=none;strokeColor=none;opacity=0;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="284" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="a2t" parent="1" style="ellipse;fillColor=none;strokeColor=none;opacity=0;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="552" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="a3s" parent="1" style="ellipse;fillColor=none;strokeColor=none;opacity=0;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="558" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="a3t" parent="1" style="ellipse;fillColor=none;strokeColor=none;opacity=0;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="284" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="a4s" parent="1" style="ellipse;fillColor=none;strokeColor=none;opacity=0;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="284" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="a4t" parent="1" style="ellipse;fillColor=none;strokeColor=none;opacity=0;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="135" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="a5s" parent="1" style="ellipse;fillColor=none;strokeColor=none;opacity=0;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="558" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="a5t" parent="1" style="ellipse;fillColor=none;strokeColor=none;opacity=0;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="284" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="a6s" parent="1" style="ellipse;fillColor=none;strokeColor=none;opacity=0;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="284" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="a6t" parent="1" style="ellipse;fillColor=none;strokeColor=none;opacity=0;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="135" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="a1s" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="a1t" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="a2s" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="a2t" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="a3s" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" target="a3t" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="a4s" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="a4t" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="a5s" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" target="a5t" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="a6s" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="a6t" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;align=left;spacingLeft=10;" value="Chú thích:&lt;br&gt;Sync = đường liền, mũi tên đặc&lt;br&gt;Return = đường nét đứt, mũi tên rỗng&lt;br&gt;alt = rẽ nhánh đúng / sai" vertex="1">
+          <mxGeometry height="105" width="250" x="670" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="L5hlNdcuShGa1uzMCn3T-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Khách nhận hàng" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
