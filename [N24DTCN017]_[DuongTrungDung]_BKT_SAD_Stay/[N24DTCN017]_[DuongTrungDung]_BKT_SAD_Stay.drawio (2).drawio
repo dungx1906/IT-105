@@ -1,0 +1,57 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="d0TloDlgYUdRu2Gipoci">
+    <mxGraphModel dx="870" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uCbNu3zIZXAMWHIx99Ik-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="730" width="450" x="310" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uCbNu3zIZXAMWHIx99Ik-4" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="460" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uCbNu3zIZXAMWHIx99Ik-5" edge="1" parent="1" source="uCbNu3zIZXAMWHIx99Ik-4" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" target="uCbNu3zIZXAMWHIx99Ik-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uCbNu3zIZXAMWHIx99Ik-8" edge="1" parent="1" source="uCbNu3zIZXAMWHIx99Ik-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uCbNu3zIZXAMWHIx99Ik-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCbNu3zIZXAMWHIx99Ik-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" value="Đặt phòng" vertex="1">
+          <mxGeometry height="60" width="120" x="415" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uCbNu3zIZXAMWHIx99Ik-10" edge="1" parent="1" source="uCbNu3zIZXAMWHIx99Ik-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uCbNu3zIZXAMWHIx99Ik-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uCbNu3zIZXAMWHIx99Ik-15" edge="1" parent="1" source="uCbNu3zIZXAMWHIx99Ik-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uCbNu3zIZXAMWHIx99Ik-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCbNu3zIZXAMWHIx99Ik-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Kiểm tra ngày đặt phòng" vertex="1">
+          <mxGeometry height="105" width="100" x="425" y="317.5" as="geometry" />
+        </mxCell>
+        <mxCell id="uCbNu3zIZXAMWHIx99Ik-17" edge="1" parent="1" source="uCbNu3zIZXAMWHIx99Ik-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uCbNu3zIZXAMWHIx99Ik-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uCbNu3zIZXAMWHIx99Ik-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Từ chối nhận phòng" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uCbNu3zIZXAMWHIx99Ik-16" edge="1" parent="1" source="uCbNu3zIZXAMWHIx99Ik-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uCbNu3zIZXAMWHIx99Ik-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCbNu3zIZXAMWHIx99Ik-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Nhận được phòng" vertex="1">
+          <mxGeometry height="60" width="120" x="415" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="uCbNu3zIZXAMWHIx99Ik-14" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="460" y="650" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
